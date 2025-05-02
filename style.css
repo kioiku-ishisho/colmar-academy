@@ -1,0 +1,175 @@
+
+* {
+    font-family: Calibri;
+    color:rgb(62, 62, 62);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 480px){
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 64px;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav p {
+        margin-left: 16px;
+    }
+
+    .left {
+        width: 60%;
+        margin: 32px 24px;
+    }
+
+    .image-left {
+        width: 100%;
+    }
+
+    .right {
+        width: 40%;
+    }
+
+    .part {
+        margin: 32px;
+    }
+
+    #part1 {
+        background-color: rgb(207, 207, 207);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #part2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .right .information-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .information-image {
+        width: 35%;
+        margin: 16px;
+        height: auto;
+    }
+
+    .information-text {
+        width: 65%;
+        margin: 8px 0px;
+    }
+
+
+    #part3 {
+        background-color: rgb(239, 239, 239);
+        padding: 32px 5%;
+    }
+
+    .courses-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: first baseline;
+
+    }
+
+    #part3 .courses {
+        background-color: #fff;
+        display: flex;
+        flex-wrap: column;
+        width: 33%;
+        flex-direction: column;
+        margin: 16px;
+    }
+
+    #part3 .courses img {
+        width: 100%;
+        height: auto;
+    }
+
+    .courses h3,p {
+        margin: 8px 16px;
+    }
+
+    #part3 h2 {
+        text-align: center;
+    }
+
+    #part4 h2 {
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .thesis-exhibit-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thesis-exhibit-content{
+        display: flex;
+    }
+
+    .thesis-image {
+        width: 35%;
+        height: auto;
+        margin: 16px;
+    }
+
+    .thesis-text {
+        width: 65%;
+        margin: 8px 0px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 24px;
+        height: 64px;
+    }
+
+    .footer-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-left p {
+        margin-left: 16px;
+    }
+}
